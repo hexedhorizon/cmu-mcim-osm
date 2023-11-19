@@ -1,0 +1,50 @@
+<ion-view view-title="Home">
+      <ion-nav-buttons side="right" >
+          <button class="button button-icon icon ion-navicon"  ui-sref="app.sidemenu" ></button>
+      </ion-nav-buttons>
+       <ion-nav-buttons side="left" >
+          <button class="button button-icon icon ion-star"  ng-click="showActionsheet();" ></button>
+      </ion-nav-buttons>
+      <ion-content>
+    <!--CMULOGO--> 
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <img ui-sref="app.aboutcmu" padding-left="100px" src="img/cmu_logo1.png">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+      <div class="col"></div>
+      </div>
+    <!--Menu Content-->
+      <div class="row"> 
+        <div class="col">
+          <a class="item item-avatar" ui-sref="app.searchmenu">
+            <i class="icon ion-search" ></i>
+            <h2>Search Information</h2>
+            <p> Run a search</p>
+          </a>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col">
+            <a class="item item-avatar" ui-sref="app.map">
+              <i class="icon ion-map"></i>
+              <h2>Free Roam</h2>
+              <p>Roam free in the mobile map</p>
+            </a>
+          </div>
+      </div>
+      <div class="row"> 
+        <div class="col">
+          <a class="item item-avatar" ui-sref="app.routemenu">
+            <i class="icon ion-ios-redo"></i>
+            <h2>Routes</h2>
+            <p>Predefined routes</p>
+          </a>
+        </div>
+      </div>  
+      </ion-content>
+</ion-view>
+

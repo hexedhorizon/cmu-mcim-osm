@@ -1,0 +1,78 @@
+body {
+  height: auto;
+  min-height: 100%;
+}
+
+.scroll, .angular-leaflet-map {
+  height: 100%;
+}
+
+.leaflet-bottom {
+  bottom : 10px;
+}
+
+.item.item-body p {
+  margin-top: 0;
+}
+
+.tabs.border-top {
+  border-top: 1px solid #fff ;
+}
+
+
+body
+{
+ 
+}
+/*pop up button customization*/
+.popup-buttons .button
+{
+    background-color: #33cd5f;
+    font-size: 20px;
+}
+/*popup body text*/
+.popup-body
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.scroll, .angular-leaflet-map
+{
+  height: 100%;
+ 
+}
+
+.leaflet-bottom
+{
+  bottom : 10px;
+}
+
+.item.item-body p
+{
+  margin-top: 0;
+}
+
+.angular-leaflet-map
+{
+	width: auto;
+}
+
+
+body {
+  cursor: url('https://ionicframework.com/img/finger.png'), auto;
+}
+
+.item-avatar i:first-child, .item-avatar .item-img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 36px;
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+    border-radius: 4px; }
+
+#cmulogo{
+  vertical-align: center;
+}

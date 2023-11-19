@@ -1,0 +1,573 @@
+{
+	"mapwidth": "600",
+	"mapheight": "700",
+	"categories": [
+		{
+			"id": "col",
+			"title": "College Buildings",
+			"color": "#90C965",
+			"show": "false"
+		},
+		{
+			"id": "off",
+			"title": "Offices",
+			"color": "#90C965",
+			"show": "false"
+		},
+		{
+			"id": "drm",
+			"title": "Dormitories",
+			"color": "#90C965",
+			"show": "false"
+		},
+		{
+			"id": "fac",
+			"title": "Facilities",
+			"color": "#90C965",
+			"show": "false"
+		},
+		{
+			"id": "sar",
+			"title": "Sports and Recreation",
+			"color": "#90C965",
+			"show": "false"
+		},
+		{
+			"id": "lnd",
+			"title": "Landmarks and Attractions",
+			"color": "#90C965",
+			"show": "false"
+		}
+	],
+	"levels": [
+		{
+			"id": "free-view",
+			"title": "Free Roam",
+			"map":"maps/cmupixel.svg",
+			"minimap": "maps/cmu-mini.jpg",
+			"locations": [
+				{
+					"id": "gs",
+					"title": "University Sports Complex",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "sar",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "hidden",
+					"x": "0.3930",
+					"y": "0.7715"
+				}
+			]
+		},
+		{
+			"id": "drm",
+			"title": "Dormitories",
+			"map":"maps/cmupixel.svg",
+			"minimap": "maps/cmu-mini.jpg",
+			"locations": [	
+				{
+					"id": "crh",
+					"title": "Cattleya Residence Hall",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "drm",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.3552",
+					"y": "0.7246"
+				},
+				{
+					"id": "grh",
+					"title": "Gardenia Residence Hall",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "drm",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.2756",
+					"y": "0.6169"
+				},
+				{
+					"id": "lsv",
+					"title": "Lawaan Student Village ",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "drm",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.1945",
+					"y": "0.7341"
+				},
+				{
+					"id": "mhg",
+					"title": "Mahogany Residence Hall",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "drm",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.3100",
+					"y": "0.0405"
+				},
+				{
+					"id": "rs",
+					"title": "Rose Residence Hall",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"category": "drm",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.8716",
+					"y": "0.1232"
+				},	
+				{
+					"id": "sun",
+					"title": "Sunrise Residence Hall",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "drm",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.6574",
+					"y": "0.1798"
+				}
+
+			]
+		},
+		{
+			"id": "fac-view",
+			"title": "Facilities",
+			"map":"maps/cmupixel.svg",
+			"minimap": "maps/cmu-mini.jpg",
+			"locations": [
+				{
+					"id": "adm",
+					"title": "Administration Building",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5782",
+					"y": "0.3879"
+				},
+				{
+					"id": "cc",
+					"title": "University Convention Center",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5272",
+					"y": "0.3659"
+				},
+				{
+					"id": "fls",
+					"title": "University Food and Lodging Services",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5844",
+					"y": "0.5184"
+				},
+				{
+					"id": "ftc",
+					"title": "Farmers Training Center",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5527",
+					"y": "0.5021"
+				},
+				{
+					"id": "hos",
+					"title": "University Hospital",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.2700",
+					"y": "0.5087"
+				},
+				{
+					"id": "imdc",
+					"title": "IMDC",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.6442",
+					"y": "0.5442"
+				},
+				{
+					"id": "mus",
+					"title": "University Museum",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.6351",
+					"y": "0.4300"
+				},
+				
+				{
+					"id": "ptgc",
+					"title": "PTGC",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.7564",
+					"y": "0.5293"
+				},
+				{
+					"id": "nprc",
+					"title": "NPRC",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.7602",
+					"y": "0.2165"
+				}
+				
+			]
+		},
+		{
+			"id": "sar-view",
+			"title": "Sports and Recreation",
+			"map":"maps/cmupixel.svg",
+			"minimap": "maps/cmu-mini.jpg",
+			"locations": [
+				{
+					"id": "gs",
+					"title": "University Sports Complex",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "sar",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.3930",
+					"y": "0.7715"
+				},
+				{
+					"id": "up",
+					"title": "University Swimming Pool",
+					"description": "Homecourt sa CMU Sharks Drawing Team",
+					"category": "sar",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5613",
+					"y": "0.5635"
+				},
+				{
+					"id": "sh-sar",
+					"title": "Social Hall",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "sar",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.4659",
+					"y": "0.4852"
+				}
+				
+			]
+		},
+		{
+			"id": "off-view",
+			"title": "Offices",
+			"map":"maps/cmupixel.svg",
+			"minimap": "maps/cmu-mini.jpg",
+			"locations": [
+				{
+					"id": "adm",
+					"title": "Administration Building",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "off",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5782",
+					"y": "0.3879"
+				},
+				{
+					"id": "ceb",
+					"title": "CEBREM",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "off",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.6699",
+					"y": "0.4464"
+				},
+				{
+					"id": "ext",
+					"title": "Extension Office",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "off",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.8190",
+					"y": "0.4885"
+				},
+				{
+					"id": "nsrc",
+					"title": "NSRC",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "off",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5816",
+					"y": "0.4414"
+				},		
+				{
+					"id": "pri",
+					"title": "Public Relations and International Office",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "off",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.7219",
+					"y": "0.4185"
+				},
+				{
+					"id": "so",
+					"title": "Security Office",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "off",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.6968",
+					"y": "0.4600"
+				},
+				
+				{
+					"id": "osa",
+					"title": "Office of Student Affairs",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5093",
+					"y": "0.5606"
+				},
+				{
+					"id": "sh",
+					"title": "Social Hall",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fac",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.4659",
+					"y": "0.4852"
+				}
+				
+				
+			]
+		},
+		{
+			"id": "col-view",
+			"title": "Colleges",
+			"map":"maps/cmupixel.svg",
+			"minimap": "maps/cmu-mini.jpg",
+			"locations": [
+				{
+					"id": "ag-main",
+					"title": "College of Agriculture",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.4341",
+					"y": "0.2263"
+				},
+				{
+					"id": "ag-cluster",
+					"title": "College of Agriculture - Cluster Building",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5054",
+					"y": "0.1927"
+				},
+				{
+					"id": "as-m",
+					"title": "College of Arts and Sciences",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.6606",
+					"y": "0.3846"
+				},
+				{
+					"id": "as-m-annex",
+					"title": "College of Arts and Sciences - Annex",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.7322",
+					"y": "0.3054"
+				},
+				{
+					"id": "as-m-ext",
+					"title": "College of Arts and Sciences - Extension",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.7138",
+					"y": "0.1979"
+				},
+				{
+					"id": "bm",
+					"title": "College of Business Management",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.5990",
+					"y": "0.2528"
+				},
+				{
+					"id": "coed-b",
+					"title": "College of Education",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.6860",
+					"y": "0.2916"
+				},
+				{
+					"id": "eng-m",
+					"title": "College of Engineering",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.",
+					"image": "images/cmu/coengg-l.png",
+					"category": "col",
+					"thumbnail": "images/cmu/coeng.png",
+					"pin": "pin red",
+					"x": "0.7707",
+					"y": "0.1515"
+				},
+				{
+					"id": "eng-eil",
+					"title": "College of Engineering - Integrated Laboratory",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.",
+					"image": "images/cmu/coengg-l.png",
+					"category": "col",
+					"thumbnail": "images/cmu/coeng.png",
+					"pin": "pin red",
+					"x": "0.8353",
+					"y": "0.1717"
+				},
+				{
+					"id": "fes-m",
+					"title": "College of Forestry and Environmental Science",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.2560",
+					"y": "0.2554"
+				},
+				{
+					"id": "fes-annex",
+					"title": "College of Forestry and Environmental Science",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.2631",
+					"y": "0.1694"
+				},
+				{
+					"id": "he",
+					"title": "College of Human Ecology",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.3703",
+					"y": "0.3751"
+				},
+				{
+					"id": "nur",
+					"title": "College of Nursing",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"category": "col",
+					"thumbnail":  "images/cmu/cmu_logo_mini.png",
+					"pin": "pin red",
+					"x": "0.2849",
+					"y": "0.5526"
+				},
+				{
+					"id": "vm",
+					"title": "College of Veterinary Medicine",
+					"description": "COLLEGE NI LODI <3",
+					"image": "images/cmu/cvm.png",
+					"category": "col",
+					"thumbnail": "images/cmu/cvm-mini.png",
+					"pin": "pin red",
+					"x": "0.5424",
+					"y": "0.1514"
+				}
+				
+				
+				
+			]
+		}
+	]
+}
